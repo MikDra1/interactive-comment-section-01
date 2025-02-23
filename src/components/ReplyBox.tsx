@@ -36,6 +36,8 @@ const StyledForm = styled.form<{ replyingTo: "comment" | "reply" }>`
     padding: 1rem;
     border-radius: 0.5rem;
     border: 1px solid var(--light-gray);
+    width: 100%;
+    resize: vertical;
   }
 
   div {
